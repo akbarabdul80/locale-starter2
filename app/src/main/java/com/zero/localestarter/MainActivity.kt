@@ -2,6 +2,7 @@ package com.zero.localestarter
 
 import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -35,6 +36,10 @@ class MainActivity : AppCompatActivity() {
         val id: Int = item.itemId
         if (id == R.id.action_help) {
             val intent = Intent(this, HelpActivity::class.java)
+            startActivity(intent)
+            return true
+        } else if (id == R.id.action_language) {
+            val intent = Intent(Settings.ACTION_LOCALE_SETTINGS)
             startActivity(intent)
             return true
         }
