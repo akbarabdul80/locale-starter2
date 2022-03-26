@@ -6,10 +6,10 @@
     <string name="nougat">نوجا كاندي باك</string>
     <string name="help_text">إذا كنت بحاجة إلى مساعدة ، فاتصل بقسم الدعم لدينا.</string>
     <string name="action_language">لغة</string>
-    <string name="expiration_date">Tanggal Expired</string>
-    <string name="quantity_label">"Jumlah : "</string>
-    <string name="enter_a_number">Masukan Jumlah</string>
-    <string name="price_label">"Harga per paket : "</string>
-    <string name="total_to_pay">Total bayar :</string>
-    <string name="enter_number">Masukan nominal</string>
+    <string name="quantity_label">" مقدار :"</string>
+    <string name="enter_a_number">أدخل المبلغ:</string>
+    <string name="price_label">سعر العبوة:</string>
+    <string name="total_to_pay">إجمالي الأجر:</string>
+    <string name="enter_number">أدخل الاسمية:</string>
+    <string name="expiration_date">منتهي الصلاحية:</string>
 </resources>
